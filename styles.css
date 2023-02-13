@@ -1,0 +1,177 @@
+html,
+body {
+  height: 100%;
+  font-family: Roboto;
+  color: #333;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+body {
+  position: relative;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+}
+
+nav {
+  height: fit-content;
+  padding: 0;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.our-services {
+  background-color: white;
+}
+.home {
+  color: white;
+  padding: 86px 350px 208px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.home div {
+  width: 503px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.home button {
+  width: 200px;
+}
+
+.our-services,
+.testimonials,
+.contact-us {
+  padding: 80px 100px;
+}
+
+.testimonials {
+  background-color: #f2f2f2;
+}
+
+.testimonial {
+  display: flex;
+  background-color: white;
+  border-radius: 22px;
+  padding: 27px 40px;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+}
+
+.testimonial p {
+  margin-bottom: 50px;
+}
+
+i {
+  font-size: 147px;
+}
+
+.testimonials-container {
+  gap: 60px;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.social-media {
+  color: white;
+  gap: 20px;
+}
+
+.social-media-icon {
+  font-size: 40px;
+}
+.footer {
+  height: 160px;
+}
+.footer-links-container ul {
+  display: flex;
+  gap: 20px;
+  color: white;
+  list-style: none;
+}
+
+a {
+  color: white;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: orange;
+  height: 50px;
+  width: 120px;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+
+#contact-us-header {
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  margin-right: 40px;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline;
+  font-size: 20px;
+  margin: 8px;
+  color: white;
+}
+
+li a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: orange;
+  cursor: pointer;
+  text-decoration-thickness: 1.5px;
+}
+
+.background-image {
+  position: fixed;
+  z-index: -1;
+  bottom: 160px;
+  width: 100%;
+}
+
+.contact-us {
+  background-color: white;
+}
+
+input,
+textarea {
+  border-radius: 0 !important;
+}
+
+#services,
+#contact,
+#testimonials {
+  scroll-margin-top: 0px;
+}
+
+ul {
+  margin-right: 40px;
+}
+
+#home {
+  scroll-margin-top: 166px;
+}
